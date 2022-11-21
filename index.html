@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Ducati</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-danger position-fixed" style="width: 100%; z-index: 2;">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Ducati</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Modelli
+                            </a>
+                            <ul class="dropdown-menu bg-danger">
+                                <li><a class="dropdown-item text-dark " href="#desertX">DESERTX</a></li>
+                                <li><a class="dropdown-item text-dark" href="#diavel_v4">Diavel V4</a></li>
+                                <li><a class="dropdown-item text-dark" href="#xdiavel_nera">XDiavel Nera</a></li>
+                                <li><a class="dropdown-item text-dark" href="#hypermotard">Hypermotard 950 SP</a></li>
+                                <li><a class="dropdown-item text-dark" href="#streetfighter_v2">Streetfighter V2</a></li>
+                                <li><a class="dropdown-item text-dark" href="#panigale_v4r">Panigale V4 R</a></li>
+                                <li><a class="dropdown-item text-dark" href="#superleggera">Superleggera V4</a></li>
+                                <li><a class="dropdown-item text-dark" href="#supersport">SuperSport 950</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+            </div>
+        
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Ducati-Panigale-V4R-MY23-overview-hero-1600x1000.jpg" alt="Panigale-V4R" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Ducati-Streetfighter-V4-MY23-HP-hero-1600x1000.jpg" alt="Streetfighter-V4" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Monster-SP-hero-1600x1000.jpg" alt="Monster-SP" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Ducati-Diavel-V4-MY23-hero-1600x1000-02.jpg" alt="Diavel-V4" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Ducati-Scrambler-Next-MY23-homepage-1600x1000.jpg" alt="Scrambler-Next" class="d-block w-100">
+                </div>
+            </div>
+        
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <section class="container mt-5">
+            <h1 class="text-uppercase display-4">modelli</h1>
+            <main class="row" id="desertX">
+                <section class="col-md-6">
+                    <img class="img-fluid" src="img/Model-Menu-MY22-DesertX.png" alt="Image not available">
+                </section>
+                
+                <aside class="col-md-6">
+                    <h3>DesertX</h3>
+
+                    <ul class="list-unstyled info mt-5 info">
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>110CV</p></dt>
+                                <dd>POTENZA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>9.4 kgm</p></dt>
+                                <dd>COPPIA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>202 kg</p></dt>
+                                <dd>PESO A SECCO</dd>
+                            </dl>
+                        </li>
+                    </ul>
+
+                    <div class="alert alert-light" style="padding-left: 0;" role="alert">
+                        A partire da 16.990€
+                    </div>
+                </aside>
+            </main>
+
+            <main class="row" id="diavel_v4">
+                <section class="col-md-6">
+                    <img class="img-fluid" src="img/Model-Menu-MY23-Diavel-V4-Rd.png" alt="Image not available">
+                </section>
+                
+                <aside class="col-md-6">
+                    <h3>Diavel V4</h3>
+
+                    <ul class="list-unstyled info mt-5 info">
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>168CV</p></dt>
+                                <dd>POTENZA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>12.8 kgm</p></dt>
+                                <dd>COPPIA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>211 kg</p></dt>
+                                <dd>PESO A SECCO</dd>
+                            </dl>
+                        </li>
+                    </ul>
+
+                    <div class="alert alert-light" style="padding-left: 0;" role="alert">
+                        A partire da 26.390€
+                    </div>
+                </aside>
+            </main>
+
+            <main class="row" id="xdiavel_nera">
+                <section class="col-md-6">
+                    <img class="img-fluid" src="img/Model-Menu-MY22-XDVL-Nera.png" alt="Image not available">
+                </section>
+                
+                <aside class="col-md-6">
+                    <h3>XDiavel Nera</h3>
+
+                    <ul class="list-unstyled info mt-5 info">
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>160CV</p></dt>
+                                <dd>POTENZA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>13.0 kgm</p></dt>
+                                <dd>COPPIA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>221 kg</p></dt>
+                                <dd>PESO A SECCO</dd>
+                            </dl>
+                        </li>
+                    </ul>
+
+                    <div class="alert alert-light" style="padding-left: 0;" role="alert">
+                        A partire da 29.290€
+                    </div>
+                </aside>
+            </main>
+
+            <main class="row" id="hypermotard">
+                <section class="col-md-6">
+                    <img class="img-fluid" src="img/Model-Menu-MY22-HYM-SP-v06.png" alt="Image not available">
+                </section>
+                
+                <aside class="col-md-6">
+                    <h3>Hypermotard</h3>
+
+                    <ul class="list-unstyled info mt-5 info">
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>114CV</p></dt>
+                                <dd>POTENZA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>9.8 kgm</p></dt>
+                                <dd>COPPIA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>176 kg</p></dt>
+                                <dd>PESO A SECCO</dd>
+                            </dl>
+                        </li>
+                    </ul>
+
+                    <div class="alert alert-light" style="padding-left: 0;" role="alert">
+                        A partire da 18.490€
+                    </div>
+                </aside>
+            </main>
+
+            <main class="row" id="streetfighter_v2">
+                <section class="col-md-6">
+                    <img class="img-fluid" src="img/Model-Menu-MY22-SF-V2-v06.png" alt="Image not available">
+                </section>
+                
+                <aside class="col-md-6">
+                    <h3>Streetfighter_v2</h3>
+
+                    <ul class="list-unstyled info mt-5 info">
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>153CV</p></dt>
+                                <dd>POTENZA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>10.3 kgm</p></dt>
+                                <dd>COPPIA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>178 kg</p></dt>
+                                <dd>PESO A SECCO</dd>
+                            </dl>
+                        </li>
+                    </ul>
+
+                    <div class="alert alert-light" style="padding-left: 0;" role="alert">
+                        A partire da 17.990€
+                    </div>
+                </aside>
+            </main>
+
+            <main class="row" id="panigale_v4r">
+                <section class="col-md-6">
+                    <img class="img-fluid" src="img/Model-Menu-MY23-Panigale-V4R.png" alt="Image not available">
+                </section>
+                
+                <aside class="col-md-6">
+                    <h3>Panigale V4R</h3>
+
+                    <ul class="list-unstyled info mt-5 info">
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>237CV</p></dt>
+                                <dd>POTENZA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>12 kgm</p></dt>
+                                <dd>COPPIA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>167 kg</p></dt>
+                                <dd>PESO A SECCO</dd>
+                            </dl>
+                        </li>
+                    </ul>
+
+                    <div class="alert alert-light" style="padding-left: 0;" role="alert">
+                        A partire da 43.990€
+                    </div>
+                </aside>
+            </main>
+
+            <main class="row" id="superleggera">
+                <section class="col-md-6">
+                    <img class="img-fluid" src="img/Model-Menu-MY21-Superleggera-V4-v04.png" alt="Image not available">
+                </section>
+                
+                <aside class="col-md-6">
+                    <h3>Superleggera</h3>
+
+                    <ul class="list-unstyled info mt-5 info">
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>234CV</p></dt>
+                                <dd>POTENZA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>12.0 kgm</p></dt>
+                                <dd>COPPIA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>152.2 kg</p></dt>
+                                <dd>PESO A SECCO</dd>
+                            </dl>
+                        </li>
+                    </ul>
+
+                    <div class="alert alert-light" style="padding-left: 0;" role="alert">
+                        Prodotte solo 500 unità
+                    </div>
+                </aside>
+            </main>
+
+            <main class="row" id="supersport">
+                <section class="col-md-6">
+                    <img class="img-fluid" src="img/Model-Menu-MY22-SS-950-v06.png" alt="Image not available">
+                </section>
+                
+                <aside class="col-md-6">
+                    <h3>SuperSport 950</h3>
+
+                    <ul class="list-unstyled info mt-5 info">
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>110CV</p></dt>
+                                <dd>POTENZA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>9.5 kgm</p></dt>
+                                <dd>COPPIA</dd>
+                            </dl>
+                        </li>
+                        <li class="list-inline-item">
+                            <dl>
+                                <dt><p>184 kg</p></dt>
+                                <dd>PESO A SECCO</dd>
+                            </dl>
+                        </li>
+                    </ul>
+
+                    <div class="alert alert-light" style="padding-left: 0;" role="alert">
+                        A partire da 15.390€
+                    </div>
+                </aside>
+            </main>
+        </section>
+
+        <section class="container mt-5" id="shop">
+            <h1 class="text-uppercase display-4">shop</h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="https://shop.ducati.com/media/catalog/product/cache/d737c4e9011f92407994a498031f753a/b/e/betti_t-shirt_fronte-copia.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">T-shirt MotoGP World Champion 2022</h5>
+                      <p class="card-text">€42,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="https://shop.ducati.com/media/catalog/product/cache/d737c4e9011f92407994a498031f753a/b/e/betti_2_fronte_2.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">T-shirt WorldSBK Champion 2022</h5>
+                      <p class="card-text">€42,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="https://shop.ducati.com/media/catalog/product/cache/d737c4e9011f92407994a498031f753a/1/F/1F67745987F0C6DB486B4BD862FA9C4D_7.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Felpa DC Track</h5>
+                      <p class="card-text">€100,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="https://shop.ducati.com/media/catalog/product/cache/d737c4e9011f92407994a498031f753a/5/7/57690367ad8df2a721be8c8c32e9c4ee.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Giacca antipioggia Ducati Corse Thrill</h5>
+                      <p class="card-text">€79,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                      <img src="https://shop.ducati.com/media/catalog/product/cache/d737c4e9011f92407994a498031f753a/0/9/092F5738462BFC4B04C1644B46D6847C_7.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">T shirt DC Track</h5>
+                        <p class="card-text">€50,00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="https://shop.ducati.com/media/catalog/product/cache/d737c4e9011f92407994a498031f753a/6/9/69DE99FF1F904B55FFE9409C2466EA29_7.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Polo manica corta DC Track</h5>
+                        <p class="card-text">€50,00</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+    </body>
+</html>
